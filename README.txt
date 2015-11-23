@@ -17,13 +17,13 @@ Brake (ON/OFF). The car shall brake, when the signal BRAKE is active. Also the c
 Gear (HIGH/LOW). The car has two different gear positions (high, low) indicated by the signal TOP_GEAR. If TOP_GEAR is active the the gear position is high, otherwise low. The cruise control is deactivated, when the gear position is moved to low. The inputs are connected to the following IO-units on the DE2-board:
 
 ----------------------------------
-Signals 			Pin 	LED
+Signals 			  Pin 	LED
 ----------------------------------
-ENGINE 				SW0 	LEDR0
-TOP_GEAR 			SW1 	LEDR1
-CRUISE_CONTROL		KEY1	LEDG2
+ENGINE 				  SW0 	LEDR0
+TOP_GEAR 			  SW1 	LEDR1
+CRUISE_CONTROL	KEY1	LEDG2
 BRAKE_PEDAL			KEY2	LEDG4
-GAS_PEDAL			KEY3 	LEDG6
+GAS_PEDAL			  KEY3 	LEDG6
 ----------------------------------
 
 The control task uses a constant throttle of 40. The task VehicleTask implements the behavior of the car and its functionality. The code is executed on the Altera DE2-board.
