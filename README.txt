@@ -1,7 +1,3 @@
-# Cruise-Control
-Short Cruise Control Program on Altera Board
-
-
 This code was KTH lab assignment for academic purpose. Code is written in C++ under the Micro OS-II library structure. The goal of the lab was to create conceptual awareness of the Real Time Operating System programming issues and the efficient use of library resources to strike out the programming debacles over limited hardware resources.
 
 
